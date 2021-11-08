@@ -17,8 +17,8 @@ add %ecx, %eax
 add $1, %ecx
 jmp before
 
-
 exit:
+mov %eax, s
 mov $1, %eax
 mov $0, %ebx
 int $0x80
