@@ -1,3 +1,6 @@
 *.o
 bin/
 *.out
+*.swp
+.gdb_history
+peda*
